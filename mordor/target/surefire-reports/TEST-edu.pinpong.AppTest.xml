@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.pinpong.AppTest" time="0.187" tests="9" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.pinpong.AppTest" time="0.182" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Users\granp\AppData\Local\Programs\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\granp\AppData\Local\Temp\surefire2796205488674881291\surefirebooter10319602478014451860.jar C:\Users\granp\AppData\Local\Temp\surefire2796205488674881291 2021-05-17T17-26-39_010-jvmRun1 surefire8074844496729982750tmp surefire_011741028132563764041tmp"/>
+    <property name="sun.java.command" value="C:\Users\granp\AppData\Local\Temp\surefire8702082135887421314\surefirebooter4678858612128428287.jar C:\Users\granp\AppData\Local\Temp\surefire8702082135887421314 2021-05-17T17-29-25_526-jvmRun1 surefire6624264016117369115tmp surefire_07231875471948975744tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\granp\Documents\DAW DUAL\PROG\mordor\mordor\target\test-classes;C:\Users\granp\Documents\DAW DUAL\PROG\mordor\mordor\target\classes;C:\Users\granp\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\granp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\granp\AppData\Local\Temp\surefire2796205488674881291\surefirebooter10319602478014451860.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\granp\AppData\Local\Temp\surefire8702082135887421314\surefirebooter4678858612128428287.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+9"/>
@@ -60,16 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="test_Mordor" classname="edu.pinpong.AppTest" time="0.114"/>
+  <testcase name="test_Mordor" classname="edu.pinpong.AppTest" time="0.106"/>
   <testcase name="test_pedido_peligroso_KO" classname="edu.pinpong.AppTest" time="0"/>
   <testcase name="test_pedido_peligroso_OK" classname="edu.pinpong.AppTest" time="0"/>
   <testcase name="test_interface_procesador" classname="edu.pinpong.AppTest" time="0.001"/>
   <testcase name="test_UUID_generator" classname="edu.pinpong.AppTest" time="0"/>
-  <testcase name="test_printar_status" classname="edu.pinpong.AppTest" time="0.005">
-    <failure message="expected:&lt;[Comarca ACEPTADO]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Comarca ACEPTADO]> but was:<[]>
-	at edu.pinpong.AppTest.test_printar_status(AppTest.java:168)
-]]></failure>
-  </testcase>
+  <testcase name="test_printar_status" classname="edu.pinpong.AppTest" time="0.014"/>
   <testcase name="test_Comarca" classname="edu.pinpong.AppTest" time="0"/>
   <testcase name="test_tratamiento_pedido_multiple_tratar" classname="edu.pinpong.AppTest" time="0.001"/>
   <testcase name="test_pedido_nacional_UUDI" classname="edu.pinpong.AppTest" time="0"/>

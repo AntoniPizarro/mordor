@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.pinpong.AppTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.187 s <<< FAILURE! - in edu.pinpong.AppTest
-test_printar_status(edu.pinpong.AppTest)  Time elapsed: 0.005 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Comarca ACEPTADO]> but was:<[]>
-	at edu.pinpong.AppTest.test_printar_status(AppTest.java:168)
-
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.182 s - in edu.pinpong.AppTest
