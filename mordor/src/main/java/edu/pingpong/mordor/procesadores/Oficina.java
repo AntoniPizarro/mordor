@@ -15,6 +15,10 @@ public class Oficina implements Procesador {
     }
 
     public String printarStatus(boolean admitido, Pedido pedido) {
+        /*
+        Código de Dfleta:
+        https://github.com/dfleta/mordor-command.git
+        */
         return admitido? 
 				pedido.destino() + " " + Status.ACEPTADO.name():
 				pedido.destino() + " " + Status.RECHAZADO.name();
